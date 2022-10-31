@@ -13,6 +13,7 @@ private const val TAG = "LogFragment"
 class LogFragment : Fragment() {
     private lateinit var exerciseLogButton: Button
     private lateinit var medicineLogButton: Button
+    private lateinit var foodLogButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +27,8 @@ class LogFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_log, container, false)
         exerciseLogButton = view.findViewById(R.id.exerciseLogButton)
         medicineLogButton = view.findViewById(R.id.medicineLogButton)
+        foodLogButton = view.findViewById(R.id.foodLogButton)
+
 
         exerciseLogButton.setOnClickListener {
             val intent = Intent(view?.context, Exercise::class.java)
@@ -35,6 +38,11 @@ class LogFragment : Fragment() {
 
         medicineLogButton.setOnClickListener {
             val intent = Intent(view?.context, MedicineLogActivity::class.java)
+            view?.context?.startActivity(intent)
+        }
+
+        foodLogButton.setOnClickListener {
+            val intent = Intent(view?.context, FoodLogActivity::class.java)
             view?.context?.startActivity(intent)
         }
 
