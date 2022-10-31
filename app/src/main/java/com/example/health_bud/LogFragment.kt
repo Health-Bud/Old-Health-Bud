@@ -11,6 +11,7 @@ import android.widget.Button
 private const val TAG = "LogFragment"
 
 class LogFragment : Fragment() {
+    private lateinit var exerciseLogButton: Button
     private lateinit var medicineLogButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,10 +22,16 @@ class LogFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_log, container, false)
+        exerciseLogButton = view.findViewById(R.id.exerciseLogButton)
         medicineLogButton = view.findViewById(R.id.medicineLogButton)
+
+        exerciseLogButton.setOnClickListener {
+            val intent = Intent(view?.context, Exercise::class.java)
+            view?.context?.startActivity(intent)
+        }
+        return view
 
         medicineLogButton.setOnClickListener {
             val intent = Intent(view?.context, MedicineLogActivity::class.java)
