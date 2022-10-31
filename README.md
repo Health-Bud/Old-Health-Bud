@@ -33,17 +33,19 @@ Health Bud is a health app that allows users to keep track of their medicine int
 
 **Required Features**
 
-* Users should be able to keep track of what medications they take and when they take them
-* Users should be able to receive a reminder/notification of when to take medication/log their intake for the day
-* Users can see when they have previously logged in data for past medications/workouts
-* Users are able to set how often they need to take a certain medicine
+-[ ] Users should be able to keep track of what medication they have taken and log the information through the app
+-[ ] Users should be able to receive a reminder/notification of when to take medication/log their intake for the day
+-[ ] Users can see when they have previously logged in data for past medications/workouts
+-[ ] Users are able to set how often they need to take a certain medicine
 
 
 **Stretch Features**
-* Users can keep track of other areas related to health, such as workouts and food 
-* Users can verify if they have created an account with the given information (email/phone number/etc.) 
+-[ ] Users can keep track of other areas related to health, such as workouts and food 
+   -[ ] Users can keep track of workouts
+   -[ ] Users can keep track of food/calorie intake
+-[ ] Users can verify if they have created an account with the given information (email/phone number/etc.) 
     * Two-Factor Authentication
-* Users can edit previous logs to update any necessary information 
+-[ ] Users can edit previous logs to update any necessary information 
 
 
 ### 2. Screen Archetypes
