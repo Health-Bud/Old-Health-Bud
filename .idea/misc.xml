@@ -6,7 +6,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/log.xml" value="0.1385" />
-        <entry key="app/src/main/res/layout/activity_food_log.xml" value="0.28199615478515627" />
+        <entry key="app/src/main/res/layout/activity_food_log.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1968643188476562" />
         <entry key="app/src/main/res/layout/activity_medicine_log.xml" value="0.18125" />
         <entry key="app/src/main/res/layout/food_log.xml" value="0.1322463768115942" />
