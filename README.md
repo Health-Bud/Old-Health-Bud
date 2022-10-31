@@ -32,6 +32,7 @@ Health Bud is a health app that allows users to keep track of their medicine int
 ### 1. User Features (Required and Optional)
 
 **Required Features**
+- [ ] Users should be able to keep track of what medication they have taken and log the information through the app
 
 -[ ] Users should be able to keep track of what medication they have taken and log the information through the app
 -[ ] Users should be able to receive a reminder/notification of when to take medication/log their intake for the day
