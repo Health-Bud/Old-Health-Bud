@@ -31,7 +31,7 @@ class LogFragment : Fragment() {
             val intent = Intent(view?.context, Exercise::class.java)
             view?.context?.startActivity(intent)
         }
-        return view
+
 
         medicineLogButton.setOnClickListener {
             val intent = Intent(view?.context, MedicineLogActivity::class.java)

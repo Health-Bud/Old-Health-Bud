@@ -18,6 +18,8 @@
         <!-- Medicine Log Activity -->
         <activity android:name=".MedicineLogActivity"
             android:exported="true" />
+        <activity android:name=".Exercise"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
